@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>固定时间控制 |</title><link>https://thingsc.github.io/youhao-HKUST-CV/zh/tags/%E5%9B%BA%E5%AE%9A%E6%97%B6%E9%97%B4%E6%8E%A7%E5%88%B6/</link><atom:link href="https://thingsc.github.io/youhao-HKUST-CV/zh/tags/%E5%9B%BA%E5%AE%9A%E6%97%B6%E9%97%B4%E6%8E%A7%E5%88%B6/index.xml" rel="self" type="application/rss+xml"/><description>固定时间控制</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>zh-Hans</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><image><url>https://thingsc.github.io/youhao-HKUST-CV/media/icon_hu_da05098ef60dc2e7.png</url><title>固定时间控制</title><link>https://thingsc.github.io/youhao-HKUST-CV/zh/tags/%E5%9B%BA%E5%AE%9A%E6%97%B6%E9%97%B4%E6%8E%A7%E5%88%B6/</link></image><item><title>基于 ELM 的固定时间电压调节</title><link>https://thingsc.github.io/youhao-HKUST-CV/zh/projects/elm-wpt-voltage-regulation/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://thingsc.github.io/youhao-HKUST-CV/zh/projects/elm-wpt-voltage-regulation/</guid><description>&lt;p&gt;本研究针对存在集总不确定性的无线电能传输系统接收侧 DC-DC Buck 变换器，提出了一种基于极限学习机（Extreme Learning Machine, ELM）的自适应滑模控制策略。相关成果发表于 &lt;em&gt;Energies&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;所提出的控制方法采用无奇异固定时间滑模（Fixed-Time Sliding Mode, FTSM）反馈控制，使滑模变量和电压跟踪误差在固定时间内收敛。进一步设计基于 ELM 的不确定性边界估计器，在线学习系统不确定性边界信息，从而降低滑模控制设计对先验边界信息的依赖。&lt;/p&gt;
+&lt;h2 id="控制结构"&gt;控制结构&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;极限学习机扰动估计器：无需预先获得系统扰动或不确定性的数学模型，通过在线自适应学习机制实时估计扰动边界。&lt;/li&gt;
+&lt;li&gt;固定时间反馈控制器：系统状态可在固定时间内完成收敛，且收敛时间与初始条件无关。&lt;/li&gt;
+&lt;li&gt;闭环稳定性分析：给出显式跟踪误差上界，并通过实验对比验证控制器有效性。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="实验结果"&gt;实验结果&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;实现近乎零超调的定点跟踪控制。&lt;/li&gt;
+&lt;li&gt;调节时间缩短 45.70% 至 51.72%。&lt;/li&gt;
+&lt;li&gt;电压跟踪误差均方根值（RMS）降低 13.65% 至 36.96%。&lt;/li&gt;
+&lt;li&gt;在扰动与参数不确定条件下保持较强抗扰性能。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;相关代表论文：
+。&lt;/p&gt;</description></item></channel></rss>

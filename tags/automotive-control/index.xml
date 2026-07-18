@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Automotive Control |</title><link>https://thingsc.github.io/youhao-HKUST-CV/tags/automotive-control/</link><atom:link href="https://thingsc.github.io/youhao-HKUST-CV/tags/automotive-control/index.xml" rel="self" type="application/rss+xml"/><description>Automotive Control</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate><image><url>https://thingsc.github.io/youhao-HKUST-CV/media/icon_hu_da05098ef60dc2e7.png</url><title>Automotive Control</title><link>https://thingsc.github.io/youhao-HKUST-CV/tags/automotive-control/</link></image><item><title>Adaptive Sliding Mode Control for Electronic Throttle Systems</title><link>https://thingsc.github.io/youhao-HKUST-CV/projects/electronic-throttle-control/</link><pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate><guid>https://thingsc.github.io/youhao-HKUST-CV/projects/electronic-throttle-control/</guid><description>&lt;p&gt;This research line develops adaptive finite-time and fixed-time sliding mode control algorithms for electronic throttle control systems. The work addresses nonlinear dynamics, robustness, convergence speed, and learning-assisted compensation.&lt;/p&gt;
+&lt;p&gt;Related papers include
+,
+,
+,
+, and
+.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Electronic throttle control research summary, page 2"
+srcset="https://thingsc.github.io/youhao-HKUST-CV/projects/electronic-throttle-control/page2_hu_c4a485a83bf4e5e0.webp 320w, https://thingsc.github.io/youhao-HKUST-CV/projects/electronic-throttle-control/page2_hu_ff5e2a2bc37e4fbd.webp 480w, https://thingsc.github.io/youhao-HKUST-CV/projects/electronic-throttle-control/page2_hu_5ab1481d474df7b5.webp 538w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://thingsc.github.io/youhao-HKUST-CV/projects/electronic-throttle-control/page2_hu_c4a485a83bf4e5e0.webp"
+width="538"
+height="760"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;</description></item></channel></rss>
