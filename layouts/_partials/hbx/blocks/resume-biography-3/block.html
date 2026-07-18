@@ -333,8 +333,10 @@
                         transition-all duration-300 border border-gray-200 dark:border-gray-700 cursor-pointer text-xl">
                 {{ if $linkEmoji }}{{ $linkEmoji | emojify }}{{ else }}{{ partial "functions/get_icon" (dict "name" $iconName "attributes" "class=\"w-6 h-6\"") }}{{ end }}
               </button>
-              <span data-popup-bubble class="hidden absolute top-full left-1/2 -translate-x-1/2 mt-2 z-30 whitespace-nowrap rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 px-3 py-2 text-sm text-gray-700 dark:text-gray-200 shadow-xl">
-                {{ if $linkUrl }}<a href="{{ $linkUrl | safeURL }}" class="hover:text-primary-600 dark:hover:text-primary-400">{{ $linkPopup }}</a>{{ else }}{{ $linkPopup }}{{ end }}
+              <span data-popup-bubble class="hidden absolute top-full left-1/2 -translate-x-1/2 pt-2 z-30 whitespace-nowrap">
+                <span class="block rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 px-3 py-2 text-sm text-gray-700 dark:text-gray-200 shadow-xl">
+                  {{ if $linkUrl }}<a href="{{ $linkUrl | safeURL }}" class="hover:text-primary-600 dark:hover:text-primary-400">{{ $linkPopup }}</a>{{ else }}{{ $linkPopup }}{{ end }}
+                </span>
               </span>
             </span>
           {{ else if $linkUrl }}
