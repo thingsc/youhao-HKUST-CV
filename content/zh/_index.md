@@ -42,6 +42,7 @@ sections:
     id: papers
     content:
       title: 精选论文
+      count: 0
       filters:
         folders:
           - publications

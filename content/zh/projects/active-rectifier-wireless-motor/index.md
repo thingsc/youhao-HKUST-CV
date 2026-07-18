@@ -1,8 +1,9 @@
 ---
 title: 有源整流无线电机系统
-date: 2025-02-01
+date: 2025-06-01
 summary: 基于双边移相控制的相位同步与效率优化。
 tags:
+  - research-highlight
   - 无线电能传输
   - 电机驱动
   - 移相控制

@@ -3,6 +3,7 @@ title: 无线供电全回转吊舱推进器
 date: 2025-06-01
 summary: 面向无人船的新型推进系统。
 tags:
+  - engineering-project
   - 无线电能传输
   - 电机驱动
   - 无人船

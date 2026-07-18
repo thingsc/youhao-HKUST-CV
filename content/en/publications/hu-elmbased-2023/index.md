@@ -20,5 +20,5 @@ hugoblox:
 links:
   - type: source
     url: "https://www.mdpi.com/1996-1073/16/3/1016"
-projects: []
+projects: [elm-wpt-voltage-regulation]
 ---

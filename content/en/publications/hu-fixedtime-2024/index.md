@@ -20,5 +20,5 @@ hugoblox:
 links:
   - type: source
     url: "https://ieeexplore.ieee.org/document/10623888/"
-projects: []
+projects: [electronic-throttle-control]
 ---

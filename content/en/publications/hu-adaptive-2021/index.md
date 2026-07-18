@@ -18,5 +18,5 @@ hugoblox:
 links:
   - type: source
     url: "https://doi.org/10.1007/s00521-021-06365-0"
-projects: []
+projects: [electronic-throttle-control]
 ---

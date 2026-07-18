@@ -1,8 +1,9 @@
 ---
 title: Adaptive Sliding Mode Control for Electronic Throttle Systems
-date: 2024-08-01
+date: 2023-06-01
 summary: Finite-time and fixed-time control algorithms for electronic throttle control.
 tags:
+  - research-highlight
   - Sliding Mode Control
   - Adaptive Control
   - Automotive Control

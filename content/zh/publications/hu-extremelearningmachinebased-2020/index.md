@@ -19,5 +19,5 @@ hugoblox:
   ids:
     doi: "10.1007/s00521-019-04446-9"
 links: []
-projects: []
+projects: [electronic-throttle-control]
 ---

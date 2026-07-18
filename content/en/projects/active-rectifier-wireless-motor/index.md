@@ -1,8 +1,9 @@
 ---
 title: Active-Rectifier Wireless Motor System
-date: 2025-02-01
+date: 2025-06-01
 summary: Dual-side phase shift control for wireless motor drive systems.
 tags:
+  - research-highlight
   - Wireless Power Transfer
   - Motor Drives
   - Phase-Shift Control

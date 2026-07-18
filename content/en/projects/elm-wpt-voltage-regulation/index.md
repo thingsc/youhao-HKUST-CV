@@ -1,8 +1,9 @@
 ---
 title: ELM-Based Fixed-Time Voltage Regulation
-date: 2023-01-01
+date: 2024-06-01
 summary: Adaptive practical fixed-time control for wireless power transfer systems.
 tags:
+  - research-highlight
   - Wireless Power Transfer
   - Fixed-Time Control
   - Extreme Learning Machine

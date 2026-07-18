@@ -3,6 +3,7 @@ title: Wireless-Powered Full-Azimuth Podded Thruster
 date: 2025-06-01
 summary: New propulsion system for unmanned vessels.
 tags:
+  - engineering-project
   - Wireless Power Transfer
   - Motor Drives
   - Unmanned Vessels

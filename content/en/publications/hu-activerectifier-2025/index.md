@@ -17,5 +17,5 @@ hugoblox:
   ids:
     doi: "10.1109/TPEL.2024.3493093"
 links: []
-projects: []
+projects: [active-rectifier-wireless-motor]
 ---

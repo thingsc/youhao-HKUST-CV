@@ -1,8 +1,9 @@
 ---
 title: 基于 ELM 的固定时间电压调节
-date: 2023-01-01
+date: 2024-06-01
 summary: 面向无线电能传输系统的自适应实用固定时间控制。
 tags:
+  - research-highlight
   - 无线电能传输
   - 固定时间控制
   - 极限学习机
