@@ -49,12 +49,12 @@ onlineCV_kimi/
 
 ## 本地模板覆盖（layouts/）
 
-`layouts/_partials/hbx/blocks/resume-biography-3/block.html` 是对 HugoBlox 主页简介区块的**本地覆盖**（同路径文件优先于模块内文件），做了两处定制：
+本地有两处对 HugoBlox 模板的**覆盖**（同路径文件优先于模块内文件），主题升级时不会自动跟进；删除对应文件即可还原原版行为：
 
-1. **区块顺序**：About → Research Interests → Education（原版是 About → Education → Interests）
-2. **popup 联系按钮**：`links` 里带 `popup` 字段的项渲染为点击弹出气泡的按钮（邮箱、电话），支持 `emoji` 字段代替图标
-
-主题升级时该覆盖不会自动跟进；如需还原原版行为，删除该文件即可。
+1. `layouts/_partials/hbx/blocks/resume-biography-3/block.html` — 主页简介区块：
+   - 区块顺序：About → Research Interests → Education（原版是 About → Education → Interests）
+   - `links` 里带 `popup` 字段的项渲染为点击弹出气泡的按钮（邮箱、电话），支持 `emoji` 字段代替图标，鼠标移出自动隐藏
+2. `layouts/_partials/views/article-grid--start.html` — 卡片网格视图：移除了"单卡片时容器限宽 500px"的规则，单卡片与多卡片同宽（如 Engineering Projects 组）
 
 ## 双语机制（重要）
 
