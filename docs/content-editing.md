@@ -9,7 +9,24 @@
 - 英文：`data/authors/me.yaml`
 - 中文：`data/zh/authors/me.yaml`（只写需要中文化的字段，未写的字段沿用英文版）
 
-主页简介区块、CV 页的教育/经历/技能/奖项全部自动从这里渲染。
+主页 About 区块、CV 页的教育/经历/技能/奖项全部自动从这里渲染。
+
+### 头像下方的联系按钮（email / 电话 / GitHub / CV）
+
+在 `links` 列表里配置。普通项渲染为跳转链接；带 `popup` 字段的项渲染为**点击弹出气泡**的按钮（本站自定义，用于邮箱和电话）：
+
+```yaml
+links:
+  - icon: at-symbol                       # 图标（hero/brands/academicons 图标名）
+    url: mailto:you@example.com           # 可选；popup 气泡里显示为可点链接
+    label: E-mail Me                      # 悬停提示
+    popup: "you@example.com"              # 有 popup → 点击弹出气泡显示该文本
+  - emoji: "📱"                           # 用 emoji 代替图标时用 emoji 字段
+    label: Phone
+    popup: "+86 13800000000"
+```
+
+中文站如需不同 label，`data/zh/authors/me.yaml` 里的 `links` 会**整体替换**英文版，必须列全。
 
 ## 添加一篇论文
 

@@ -45,7 +45,16 @@ onlineCV_kimi/
 
 ## 不需要关心的（生成物 / 依赖）
 
-`public/`（构建输出，也是 gh-pages 分支内容）、`resources/`（Hugo 缓存）、`node_modules/`、`go.sum`、`hugo_stats.json`、`netlify.toml`、`layouts/`（主题覆盖用，当前基本为空）。这些都已被 `.gitignore` 忽略或无需手动编辑。
+`public/`（构建输出，也是 gh-pages 分支内容）、`resources/`（Hugo 缓存）、`node_modules/`、`go.sum`、`hugo_stats.json`、`netlify.toml`。这些都已被 `.gitignore` 忽略或无需手动编辑。
+
+## 本地模板覆盖（layouts/）
+
+`layouts/_partials/hbx/blocks/resume-biography-3/block.html` 是对 HugoBlox 主页简介区块的**本地覆盖**（同路径文件优先于模块内文件），做了两处定制：
+
+1. **区块顺序**：About → Research Interests → Education（原版是 About → Education → Interests）
+2. **popup 联系按钮**：`links` 里带 `popup` 字段的项渲染为点击弹出气泡的按钮（邮箱、电话），支持 `emoji` 字段代替图标
+
+主题升级时该覆盖不会自动跟进；如需还原原版行为，删除该文件即可。
 
 ## 双语机制（重要）
 

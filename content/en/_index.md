@@ -16,9 +16,9 @@ sections:
         text: Download CV
         url: https://thingsc.github.io/youhao-HKUST-CV/uploads/youhao-hu-cv.pdf
       headings:
-        about: ''
+        about: 'About'
         education: ''
-        interests: ''
+        interests: 'Research Interests'
     design:
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
@@ -33,16 +33,6 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: markdown
-    content:
-      title: '📚 Research'
-      subtitle: ''
-      text: |-
-        My work combines theoretical research with practical engineering development, spanning system modeling, control algorithm design, embedded implementation, hardware prototyping, and experimental validation. Recent research topics include wireless motor systems, high-efficiency WPT systems, adaptive and sliding mode control, and wireless-powered propulsion systems for unmanned vessels.
-
-        I am experienced in MATLAB/Simulink, Python, and C, with strong expertise in automatic code generation, real-time control systems, and embedded deployment. My goal is to bridge advanced control theory and industrial applications by developing efficient, reliable, and intelligent energy conversion systems.
-    design:
-      columns: '1'
   - block: collection
     id: papers
     content:
