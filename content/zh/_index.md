@@ -18,7 +18,7 @@ sections:
       headings:
         about: '关于我'
         education: ''
-        interests: '研究兴趣'
+        interests: '研究方向'
     design:
       background:
         gradient_mesh:

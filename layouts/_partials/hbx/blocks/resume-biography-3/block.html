@@ -322,8 +322,8 @@
           {{ end }}
           {{ $linkUrl = strings.TrimSpace $linkUrl }}
           {{ if $linkPopup }}
-            {{/* Popup item: click the button to reveal the text (e.g. phone number, email) */}}
-            <span class="relative inline-flex">
+            {{/* Popup item: click the button to reveal the text; hides when the mouse leaves both the button and the bubble */}}
+            <span class="relative inline-flex" onmouseleave="var b=this.querySelector('[data-popup-bubble]');if(b){b.classList.add('hidden')}">
               <button type="button"
                  aria-label="{{ $linkLabel | default $iconName }}"
                  {{ if $linkLabel }} title="{{ $linkLabel }}"{{ end }}
@@ -333,7 +333,7 @@
                         transition-all duration-300 border border-gray-200 dark:border-gray-700 cursor-pointer text-xl">
                 {{ if $linkEmoji }}{{ $linkEmoji | emojify }}{{ else }}{{ partial "functions/get_icon" (dict "name" $iconName "attributes" "class=\"w-6 h-6\"") }}{{ end }}
               </button>
-              <span class="hidden absolute top-full left-1/2 -translate-x-1/2 mt-2 z-30 whitespace-nowrap rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 px-3 py-2 text-sm text-gray-700 dark:text-gray-200 shadow-xl">
+              <span data-popup-bubble class="hidden absolute top-full left-1/2 -translate-x-1/2 mt-2 z-30 whitespace-nowrap rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 px-3 py-2 text-sm text-gray-700 dark:text-gray-200 shadow-xl">
                 {{ if $linkUrl }}<a href="{{ $linkUrl | safeURL }}" class="hover:text-primary-600 dark:hover:text-primary-400">{{ $linkPopup }}</a>{{ else }}{{ $linkPopup }}{{ end }}
               </span>
             </span>
@@ -440,7 +440,7 @@
           {{ $interests = slice $interests_raw }}
         {{ end }}
         {{ if gt (len $interests) 0 }}
-        <div>
+        <div class="mb-16">
           <div class="flex items-center gap-4 mb-8">
             <div class="flex-shrink-0 w-12 h-12 bg-primary-100 dark:bg-primary-900/50 rounded-full flex items-center justify-center">
               {{ partial "functions/get_icon" (dict "name" "sparkles" "attributes" "class='w-6 h-6 text-primary-600 dark:text-primary-400'") }}
