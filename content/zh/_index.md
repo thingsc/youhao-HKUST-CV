@@ -14,7 +14,7 @@ sections:
       # 在简介下方显示按钮（可选）
       button:
         text: 下载简历
-        url: /uploads/youhao-hu-cv-zh.pdf
+        url: https://thingsc.github.io/youhao-HKUST-CV/uploads/youhao-hu-cv-zh.pdf
       headings:
         about: ''
         education: ''

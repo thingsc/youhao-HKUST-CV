@@ -13,7 +13,7 @@ sections:
     content:
       title: 个人简历
       text: |-
-        [📄 下载简历（PDF）](/uploads/youhao-hu-cv-zh.pdf)
+        [📄 下载简历（PDF）](https://thingsc.github.io/youhao-HKUST-CV/uploads/youhao-hu-cv-zh.pdf)
     design:
       columns: '1'
   - block: resume-experience

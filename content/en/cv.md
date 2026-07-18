@@ -14,7 +14,7 @@ sections:
     content:
       title: Curriculum Vitae
       text: |-
-        [📄 Download CV (PDF)](/uploads/youhao-hu-cv.pdf)
+        [📄 Download CV (PDF)](https://thingsc.github.io/youhao-HKUST-CV/uploads/youhao-hu-cv.pdf)
     design:
       columns: '1'
   - block: resume-experience
