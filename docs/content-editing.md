@@ -71,6 +71,8 @@ links: []    # 可选：[{type: site, url: https://github.com/...}]
 - 英文 CV → `static/uploads/youhao-hu-cv.pdf`
 - 中文 CV → `static/uploads/youhao-hu-cv-zh.pdf`
 
+注意：站内静态文件的链接必须写**完整绝对地址**（如 `https://thingsc.github.io/youhao-HKUST-CV/uploads/xxx.pdf`），不能用 `/uploads/xxx.pdf` 这种根相对路径——本站部署在子路径 `/youhao-HKUST-CV/` 下，根相对路径会被浏览器解析到域名根目录导致 404。
+
 ## 改导航菜单
 
 - 英文：`config/_default/menus.en.yaml`
