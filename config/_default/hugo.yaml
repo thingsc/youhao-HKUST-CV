@@ -21,6 +21,11 @@ removePathAccents: true
 ## ADVANCED
 ############################
 
+# 全站关闭阅读时长显示（主题 single 页模板读取页面级 reading_time 参数）
+cascade:
+  - params:
+      reading_time: false
+
 build:
   writeStats: true
 enableGitInfo: false

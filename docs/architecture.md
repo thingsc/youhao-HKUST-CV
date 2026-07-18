@@ -55,6 +55,9 @@ onlineCV_kimi/
    - 区块顺序：About → Research Interests → Education（原版是 About → Education → Interests）
    - `links` 里带 `popup` 字段的项渲染为点击弹出气泡的按钮（邮箱、电话），支持 `emoji` 字段代替图标，鼠标移出自动隐藏
 2. `layouts/_partials/views/article-grid--start.html` — 卡片网格视图：移除了"单卡片时容器限宽 500px"的规则，单卡片与多卡片同宽（如 Engineering Projects 组）
+3. `layouts/_partials/page_footer.html` — 详情页页脚：移除了分享按钮（X/Facebook/LinkedIn/WhatsApp）和页底作者卡片，保留 tags / 系列导航 / 相关推荐
+
+另：`config/_default/hugo.yaml` 里用 `cascade.params.reading_time: false` 全站关闭了阅读时长显示（`params.yaml` 的 `hugoblox.content.reading_time.enable` 也已设为 false）。
 
 ## 双语机制（重要）
 

@@ -1,0 +1,8 @@
+{{/* 本地覆盖：去掉分享按钮（page_sharer）和页底作者卡片（page_author）。
+     原版还会渲染 tags / next-in-series / related / comments，予以保留。 */}}
+<div class="max-w-prose print:hidden">
+  {{ partial "tags" . }}
+  {{ partial "components/next-in-series" . }}
+  {{ partial "page_related" . }}
+  {{ partial "comments" . }}
+</div>
