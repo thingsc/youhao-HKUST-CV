@@ -3,7 +3,7 @@ title: "Magnetic-field-editable wireless power transfer system with DD 2 magneti
 authors:
   - "Xuxing Duan"
   - "Wei Han"
-  - me
+  - "Youhao Hu"
   - "Hanlei Tian"
   - "Jinliang Huang"
   - "Zhen Zhang"

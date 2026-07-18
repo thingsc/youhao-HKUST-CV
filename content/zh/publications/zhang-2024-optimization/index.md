@@ -3,7 +3,7 @@ title: "Optimization of WPT-based snubber circuit via coupled-mode theory to eli
 authors:
   - "Bowang Zhang"
   - "Wei Han"
-  - me
+  - "Youhao Hu"
   - "Weikang Hu"
   - "Binhong Cao"
   - "Xuxing Duan"

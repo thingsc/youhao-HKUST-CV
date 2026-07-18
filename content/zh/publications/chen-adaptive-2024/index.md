@@ -3,7 +3,7 @@ title: "Adaptive Control for Improved Virtual Synchronous Generator Under Imbala
 authors:
   - "Yangyang Chen"
   - "Wei Han"
-  - me
+  - "Youhao Hu"
   - "Yilin Zhang"
 date: "2024-01-01T00:00:00Z"
 publishDate: "2024-01-01T00:00:00Z"

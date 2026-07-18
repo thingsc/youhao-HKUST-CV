@@ -1,7 +1,7 @@
 ---
 title: "Adaptive Tracking Control of an Electronic Throttle Valve Based on Recursive Terminal Sliding Mode"
 authors:
-  - me
+  - "Youhao Hu"
   - "Hai Wang"
   - "Shuping He"
   - "Jinchuan Zheng"

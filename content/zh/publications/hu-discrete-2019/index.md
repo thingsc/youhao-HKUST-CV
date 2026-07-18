@@ -1,7 +1,7 @@
 ---
 title: "Discrete time fast sliding-mode control for permanent magnet linear motor with nonlinear extended state observer"
 authors:
-  - me
+  - "Youhao Hu"
   - "Hai Wang"
 date: "2019-01-01T00:00:00Z"
 publishDate: "2019-01-01T00:00:00Z"

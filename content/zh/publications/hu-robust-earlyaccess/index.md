@@ -3,7 +3,7 @@ title: "Robust Maximum Power Point Tracking for Parity-Time Symmetric Wireless P
 authors:
   - "Weikang Hu"
   - "Bowang Zhang"
-  - me
+  - "Youhao Hu"
   - "Wei Han"
 date: "2025-01-01T00:00:00Z"
 publishDate: "2025-01-01T00:00:00Z"

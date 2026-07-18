@@ -3,7 +3,7 @@ title: "2-D misalignment-tolerant wireless power transfer with a compact O-to-OX
 authors:
   - "Xuxing Duan"
   - "Wei Han"
-  - me
+  - "Youhao Hu"
   - "Hanlei Tian"
   - "Jinliang Huang"
 date: "2024-01-01T00:00:00Z"

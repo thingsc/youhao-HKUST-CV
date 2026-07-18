@@ -1,7 +1,7 @@
 ---
 title: "Robust Speed Control for Wireless Motor Systems with Maximum Efficiency Point Tracking"
 authors:
-  - me
+  - "Youhao Hu"
   - "Bowang Zhang"
   - "Weikang Hu"
   - "Wei Han"

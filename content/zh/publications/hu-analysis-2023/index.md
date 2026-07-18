@@ -3,7 +3,7 @@ title: "Analysis of Self-Oscillation Frequency in an Inductive Power Transfer Sy
 authors:
   - "Weikang Hu"
   - "Bowang Zhang"
-  - me
+  - "Youhao Hu"
   - "Wei Han"
 date: "2023-01-01T00:00:00Z"
 publishDate: "2023-01-01T00:00:00Z"

@@ -1,7 +1,7 @@
 ---
 title: "Fixed-time Adaptive Sliding Mode Control for Vehicular Electronic Throttle with Actuator Saturation Using Extreme Learning Machine"
 authors:
-  - me
+  - "Youhao Hu"
   - "Hai Wang"
   - "Amirmehdi Yazdani"
   - "Liqing Chen"

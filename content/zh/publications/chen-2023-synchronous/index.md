@@ -3,7 +3,7 @@ title: "Synchronous rotation coordinates-based low voltage ride through control 
 authors:
   - "Yangyang Chen"
   - "Wei Han"
-  - me
+  - "Youhao Hu"
 date: "2023-01-01T00:00:00Z"
 publishDate: "2023-01-01T00:00:00Z"
 publication_types: ["paper-conference"]

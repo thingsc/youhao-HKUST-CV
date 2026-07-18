@@ -2,7 +2,7 @@
 title: "Power Boosting of Strongly Coupled Wireless Power Transfer Systems by Aligning 1st/3rd Harmonic Frequencies with Splitting Frequencies"
 authors:
   - "Bowang Zhang"
-  - me
+  - "Youhao Hu"
   - "Weikang Hu"
   - "Wei Han"
 date: "2025-01-01T00:00:00Z"

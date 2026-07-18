@@ -3,7 +3,7 @@ title: "Challenge and trend on energy digitalization"
 authors:
   - "Wei Han"
   - "C.C. Chan"
-  - me
+  - "Youhao Hu"
   - "Chang Liu"
   - "George You Zhou"
 date: "2024-01-01T00:00:00Z"

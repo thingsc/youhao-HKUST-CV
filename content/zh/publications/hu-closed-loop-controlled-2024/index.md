@@ -1,7 +1,7 @@
 ---
 title: "A Closed-Loop-Controlled Wireless Motor System with Maximum Efficiency Point Tracking"
 authors:
-  - me
+  - "Youhao Hu"
   - "Wei Han"
   - "Bowang Zhang"
   - "Weikang Hu"

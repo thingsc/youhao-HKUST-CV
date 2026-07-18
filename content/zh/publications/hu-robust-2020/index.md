@@ -1,7 +1,7 @@
 ---
 title: "Robust tracking control for vehicle electronic throttle using adaptive dynamic sliding mode and extended state observer"
 authors:
-  - me
+  - "Youhao Hu"
   - "Hai Wang"
 date: "2020-01-01T00:00:00Z"
 publishDate: "2020-01-01T00:00:00Z"

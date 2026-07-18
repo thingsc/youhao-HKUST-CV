@@ -3,7 +3,7 @@ title: "Optimizing dynamic performance of virtual synchronous generator based on
 authors:
   - "Yangyang Chen"
   - "Wei Han"
-  - me
+  - "Youhao Hu"
   - "Hanlei Tian"
   - "Yilin Zhang"
   - "Junyu Fan"

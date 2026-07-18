@@ -1,7 +1,7 @@
 ---
 title: "ELM-Based Adaptive Practical Fixed-Time Voltage Regulation in Wireless Power Transfer System"
 authors:
-  - me
+  - "Youhao Hu"
   - "Bowang Zhang"
   - "Weikang Hu"
   - "Wei Han"

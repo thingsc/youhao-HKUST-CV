@@ -3,7 +3,7 @@ title: "An All-the-Time Synchronization Technique for 2.2 kW Bidirectional Induc
 authors:
   - "Bowang Zhang"
   - "Weikang Hu"
-  - me
+  - "Youhao Hu"
   - "Dianxun Xiao"
   - "Wei Han"
 date: "2023-01-01T00:00:00Z"

@@ -3,7 +3,7 @@ title: "A novel wireless-power-transfer-based snubber circuit for suppressing hi
 authors:
   - "Binhong Cao"
   - "Bowang Zhang"
-  - me
+  - "Youhao Hu"
   - "Wei Han"
 date: "2023-01-01T00:00:00Z"
 publishDate: "2023-01-01T00:00:00Z"

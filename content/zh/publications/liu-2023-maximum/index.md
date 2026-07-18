@@ -3,7 +3,7 @@ title: "Maximum efficiency tracking of wireless power transfer by using receiver
 authors:
   - "Chang Liu"
   - "Bowang Zhang"
-  - me
+  - "Youhao Hu"
   - "Binhong Cao"
   - "Wei Han"
 date: "2023-01-01T00:00:00Z"

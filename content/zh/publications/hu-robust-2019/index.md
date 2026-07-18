@@ -1,7 +1,7 @@
 ---
 title: "Robust fast nonsingular terminal sliding mode control strategy for electronic throttle based on extreme learning machine"
 authors:
-  - me
+  - "Youhao Hu"
   - "Hai Wang"
   - "Zhenwei Cao"
   - "Zhihong Man"

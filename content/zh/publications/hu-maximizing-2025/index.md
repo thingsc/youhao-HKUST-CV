@@ -3,7 +3,7 @@ title: "Maximizing wireless power transfer efficiency at exceptional points"
 authors:
   - "Wei-Kang Hu"
   - "Bowang Zhang"
-  - me
+  - "Youhao Hu"
   - "Haoxiang Li"
   - "Wei Han"
 date: "2025-01-01T00:00:00Z"

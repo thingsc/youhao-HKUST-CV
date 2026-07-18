@@ -3,7 +3,7 @@ title: "Frequency tracking synchronization technique for a bidirectional inducti
 authors:
   - "Bowang Zhang"
   - "Wei Han"
-  - me
+  - "Youhao Hu"
   - "Weikang Hu"
 date: "2023-01-01T00:00:00Z"
 publishDate: "2023-01-01T00:00:00Z"

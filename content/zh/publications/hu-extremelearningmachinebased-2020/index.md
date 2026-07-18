@@ -1,7 +1,7 @@
 ---
 title: "Extreme-learning-machine-based FNTSM control strategy for electronic throttle"
 authors:
-  - me
+  - "Youhao Hu"
   - "Hai Wang"
   - "Zhenwei Cao"
   - "Jinchuan Zheng"

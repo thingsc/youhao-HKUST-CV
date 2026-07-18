@@ -2,7 +2,7 @@
 title: "Real-Time Control Systems with Applications in Mechatronics"
 authors:
   - "Hai Wang"
-  - me
+  - "Youhao Hu"
   - "Mao Ye"
   - "Jie Zhang"
   - "Zhenwei Cao"

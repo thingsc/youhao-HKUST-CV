@@ -1,7 +1,7 @@
 ---
 title: "Adaptive full order sliding mode control for electronic throttle valve system with fixed time convergence using extreme learning machine"
 authors:
-  - me
+  - "Youhao Hu"
   - "Hai Wang"
   - "Amirmehdi Yazdani"
   - "Zhihong Man"

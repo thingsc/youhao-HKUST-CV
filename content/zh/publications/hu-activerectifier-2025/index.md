@@ -1,7 +1,7 @@
 ---
 title: "An active-rectifier wireless motor system with dual-side phase shift control for phase synchronization and efficiency optimization"
 authors:
-  - me
+  - "Youhao Hu"
   - "Wei Han"
   - "Bowang Zhang"
   - "Weikang Hu"
