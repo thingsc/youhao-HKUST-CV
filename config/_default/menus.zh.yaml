@@ -1,16 +1,19 @@
 # Navigation Links (中文)
 #   weight 参数决定链接显示顺序。
+#   注意：本站部署在子路径 /youhao-HKUST-CV/ 下，主题的 relLangURL 会把
+#   语言前缀加到 baseURL 子路径之前，导致根相对路径（如 /zh/projects/）错乱，
+#   因此中文菜单使用不带语言前缀的完整绝对地址（主题会自动补语言前缀）。
 
 main:
   - name: 首页
-    url: /zh/
+    url: https://thingsc.github.io/youhao-HKUST-CV/
     weight: 10
   - name: 项目
-    url: /zh/projects/
+    url: https://thingsc.github.io/youhao-HKUST-CV/projects/
     weight: 20
   - name: 论文
-    url: /zh/publications/
+    url: https://thingsc.github.io/youhao-HKUST-CV/publications/
     weight: 30
   - name: 简历
-    url: /zh/cv/
+    url: https://thingsc.github.io/youhao-HKUST-CV/cv/
     weight: 40
