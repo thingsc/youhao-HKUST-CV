@@ -1,0 +1,16 @@
+# Navigation Links (中文)
+#   weight 参数决定链接显示顺序。
+
+main:
+  - name: 首页
+    url: /zh/
+    weight: 10
+  - name: 项目
+    url: /zh/projects/
+    weight: 20
+  - name: 论文
+    url: /zh/publications/
+    weight: 30
+  - name: 简历
+    url: /zh/cv/
+    weight: 40

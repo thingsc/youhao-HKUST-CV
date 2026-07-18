@@ -1,0 +1,24 @@
+---
+title: "ELM-Based Adaptive Practical Fixed-Time Voltage Regulation in Wireless Power Transfer System"
+authors:
+  - me
+  - "Bowang Zhang"
+  - "Weikang Hu"
+  - "Wei Han"
+date: "2023-01-01T00:00:00Z"
+publishDate: "2023-01-01T00:00:00Z"
+publication_types: ["article-journal"]
+publication:
+  name: "Energies"
+  volume: 16
+  issue: 3
+abstract: "This paper proposes an extreme learning machine (ELM)-based adaptive sliding mode control strategy for the receiver-side buck converter system in the wireless power transfer system subjecting to the lumped uncertainty. The proposed control strategy utilizes a singularity-free fixed-time sliding mode (FTSM) feedback control, which ensures a fixed-time convergence for both the sliding variable and voltage tracking error. An ELM-based uncertainty bound estimator is further designed to learn the uncertainty bound information in real-time, which opportunely loosens the constraint of bound information requirement for sliding mode control design. The global stability of the closed-loop system is rigidly analyzed, and the good performance of the proposed control strategy is validated by comparison experiments which exhibit ideal overshoot elimination, 45.70--51.72% reduction of settling time, and 13.65--36.96% reduction of the root mean square value for voltage tracking error with respect to different load types."
+featured: true
+hugoblox:
+  ids:
+    doi: "10.3390/en16031016"
+links:
+  - type: source
+    url: "https://www.mdpi.com/1996-1073/16/3/1016"
+projects: []
+---

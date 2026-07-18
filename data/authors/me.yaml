@@ -1,0 +1,143 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Youhao Hu
+  given: Youhao
+  family: Hu
+  alternate: 胡友豪
+role: Ph.D. Candidate in Power Electronics
+bio: |
+  Youhao Hu is a Ph.D. candidate in Power Electronics at The Hong Kong University
+  of Science and Technology (Guangzhou), supervised by Dr. Wei Han and
+  Prof. C. C. Chan. His research interests lie in power electronics, wireless
+  power transfer (WPT), motor drive systems, and advanced control techniques
+  for energy conversion applications.
+
+affiliations:
+  - name: The Hong Kong University of Science and Technology (Guangzhou)
+    url: https://www.hkust-gz.edu.cn/
+
+links:
+  - icon: at-symbol
+    url: mailto:yhu543@connect.hkust-gz.edu.cn
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/thingsc
+  - icon: hero/document-text
+    url: /uploads/youhao-hu-cv.pdf
+    label: CV
+
+interests:
+  - Power Electronics
+  - Wireless Power Transfer
+  - Motor Drive Systems
+  - Advanced Control
+
+education:
+  - degree: Ph.D. in Power Electronics
+    institution: The Hong Kong University of Science and Technology (Guangzhou)
+    start: 2025-08-01
+    summary: |
+      Supervisors: Dr. [Wei Han](https://weihan.people.ust.hk/?page_id=38) and Prof. [C. C. Chan](https://web.engg.hku.hk/home/people/ccchan/ccchan.htm).
+  - degree: Ph.D. Exchange Program in Power Electronics
+    institution: The Hong Kong University of Science and Technology
+    start: 2025-02-01
+    end: 2025-08-01
+    summary: |
+      Cross-campus Ph.D. exchange program. Host supervisor: Prof. [Zhengbao Yang](https://yanglab.hkust.edu.hk/People.html).
+  - degree: Ph.D. in Power Electronics
+    institution: The Hong Kong University of Science and Technology (Guangzhou)
+    start: 2022-09-01
+    end: 2025-02-01
+    summary: |
+      Supervisors: Dr. [Wei Han](https://weihan.people.ust.hk/?page_id=38) and Prof. [C. C. Chan](https://web.engg.hku.hk/home/people/ccchan/ccchan.htm).
+  - degree: M.S. in Control Engineering
+    institution: Hefei University of Technology
+    start: 2017-09-01
+    end: 2020-06-01
+  - degree: B.S. in Automation
+    institution: Shandong University of Technology
+    start: 2013-09-01
+    end: 2017-06-01
+
+experience:
+  - role: Research Assistant
+    org: The Hong Kong University of Science and Technology (Guangzhou)
+    start: 2021-01-01
+    end: 2022-09-01
+    summary: |
+      Wireless power transfer system preliminary research.
+  - role: Research Assistant
+    org: Hefei University of Technology
+    start: 2020-09-01
+    end: 2021-01-01
+    summary: |
+      Steer-by-wire system research.
+
+skills:
+  - name: Research Skills
+    items:
+      - label: Power Electronics & WPT Systems
+        level: 5
+      - label: Dynamical System Modeling
+        level: 5
+      - label: Advanced Control (SMC, Adaptive, ESO)
+        level: 5
+      - label: Embedded Control System Development
+        level: 5
+      - label: Intelligent Control & Machine Learning
+        level: 4
+  - name: Programming & Tools
+    items:
+      - label: MATLAB/Simulink
+        level: 5
+      - label: Python
+        level: 4
+      - label: C
+        level: 4
+
+languages:
+  - name: Chinese
+    level: 5
+    label: Native
+  - name: English
+    level: 4
+    label: Fluent
+
+awards:
+  - title: Gold Medal in International Exhibition of Inventions of Geneva
+    awarder: Palexpo SA, Switzerland
+    date: "2026-01-01"
+    summary: Awarded for the wireless-powered full-azimuth podded thruster project.
+    icon: hero/trophy
+  - title: Fully Funded PhD Scholarship
+    awarder: The Hong Kong University of Science and Technology (Guangzhou)
+    date: "2022-01-01"
+  - title: Outstanding Graduate Award
+    awarder: Anhui Province, China
+    date: "2020-01-01"
+  - title: Outstanding Graduate Award
+    awarder: Hefei University of Technology, China
+    date: "2020-01-01"
+  - title: National Scholarship for Graduate Students
+    awarder: Ministry of Education, China
+    date: "2019-01-01"
+  - title: Academic First Grade Scholarship for Graduate Students
+    awarder: Hefei University of Technology, China
+    date: "2019-01-01"
+  - title: Academic Second Grade Scholarship for Graduate Students
+    awarder: Hefei University of Technology, China
+    date: "2018-01-01"
+  - title: Academic First Grade Scholarship for Graduate Students
+    awarder: Hefei University of Technology, China
+    date: "2017-01-01"
+  - title: Academic First Grade Scholarship
+    awarder: Shandong University of Technology, China
+    date: "2017-01-01"
+  - title: Meritorious Winner in Mathematical Contest in Modeling (MCM)
+    awarder: COMAP, United States
+    date: "2016-01-01"
+  - title: 'Qingdao "DORIGHT" Scholarship'
+    awarder: Shandong University of Technology, China
+    date: "2016-01-01"

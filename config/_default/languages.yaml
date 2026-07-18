@@ -1,0 +1,17 @@
+# Languages
+#   Documentation: https://docs.hugoblox.com/reference/language/
+
+# Default language (English) — served at the site root.
+en:
+  locale: en-us
+  contentDir: content/en
+
+# Chinese (Simplified) — served under /zh/.
+zh:
+  locale: zh-Hans
+  contentDir: content/zh
+  params:
+    hugoblox:
+      identity:
+        # Site name shown on the Chinese site (replace with your Chinese name).
+        name: 胡友豪

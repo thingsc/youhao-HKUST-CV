@@ -1,0 +1,136 @@
+# 中文作者档案覆盖
+# 此处字段会合并覆盖 data/authors/me.yaml 中的同名字段（深合并），
+# 未列出的字段（链接、地址等）沿用英文默认版本。
+
+name:
+  display: 胡友豪
+role: 电力电子方向博士研究生
+bio: |
+  我是香港科技大学（广州）电力电子方向博士研究生胡友豪，师从陈清泉院士和韩伟教授。
+  研究方向聚焦于电力电子系统、无线电能传输（WPT）、电机驱动系统以及先进控制理论，
+  致力于高效率能量变换系统与智能控制技术的研究与应用。
+
+# links 为列表字段，会整体替换英文版本，故需完整列出
+links:
+  - icon: at-symbol
+    url: mailto:yhu543@connect.hkust-gz.edu.cn
+    label: 邮件联系
+  - icon: brands/github
+    url: https://github.com/thingsc
+  - icon: hero/document-text
+    url: /uploads/youhao-hu-cv-zh.pdf
+    label: 简历
+
+interests:
+  - 电力电子
+  - 无线电能传输
+  - 电机驱动系统
+  - 先进控制
+
+education:
+  - degree: 电力电子 博士
+    institution: 香港科技大学（广州）
+    start: 2025-08-01
+    summary: |
+      导师：[韩伟博士](https://weihan.people.ust.hk/?page_id=38)，[陈清泉院士](https://web.engg.hku.hk/home/people/ccchan/ccchan.htm)。
+  - degree: 电力电子 博士跨校区交流项目
+    institution: 香港科技大学
+    start: 2025-02-01
+    end: 2025-08-01
+    summary: |
+      交流导师：[杨征保教授](https://yanglab.hkust.edu.hk/People.html)。
+  - degree: 电力电子 博士
+    institution: 香港科技大学（广州）
+    start: 2022-09-01
+    end: 2025-02-01
+    summary: |
+      导师：[韩伟博士](https://weihan.people.ust.hk/?page_id=38)，[陈清泉院士](https://web.engg.hku.hk/home/people/ccchan/ccchan.htm)。
+  - degree: 控制工程 硕士
+    institution: 合肥工业大学
+    start: 2017-09-01
+    end: 2020-06-01
+  - degree: 自动化 学士
+    institution: 山东理工大学
+    start: 2013-09-01
+    end: 2017-06-01
+
+experience:
+  - role: 科研助理
+    org: 香港科技大学（广州）
+    start: 2021-01-01
+    end: 2022-09-01
+    summary: |
+      无线电能传输系统预研。
+  - role: 科研助理
+    org: 合肥工业大学
+    start: 2020-09-01
+    end: 2021-01-01
+    summary: |
+      线控转向系统研究。
+
+skills:
+  - name: 科研技能
+    items:
+      - label: 电力电子与无线电能传输系统
+        level: 5
+      - label: 复杂动力学系统建模
+        level: 5
+      - label: 先进控制（滑模、自适应、ESO）
+        level: 5
+      - label: 嵌入式控制系统开发
+        level: 5
+      - label: 智能控制与机器学习
+        level: 4
+  - name: 编程与工具
+    items:
+      - label: MATLAB/Simulink
+        level: 5
+      - label: Python
+        level: 4
+      - label: C 语言
+        level: 4
+
+languages:
+  - name: 中文
+    level: 5
+    label: 母语
+  - name: 英语
+    level: 4
+    label: 流利
+
+awards:
+  - title: 日内瓦国际发明展金奖
+    awarder: Palexpo SA, Switzerland
+    date: "2026-01-01"
+    summary: 无线供电全回转吊舱推进器项目获奖。
+    icon: hero/trophy
+  - title: 全额博士奖学金
+    awarder: 香港科技大学（广州）
+    date: "2022-01-01"
+  - title: 安徽省品学兼优毕业生
+    awarder: 安徽省
+    date: "2020-01-01"
+  - title: 优秀毕业生
+    awarder: 合肥工业大学
+    date: "2020-01-01"
+  - title: 研究生国家奖学金
+    awarder: 中华人民共和国教育部
+    date: "2019-01-01"
+  - title: 研究生学业一等奖学金
+    awarder: 合肥工业大学
+    date: "2019-01-01"
+  - title: 研究生学业二等奖学金
+    awarder: 合肥工业大学
+    date: "2018-01-01"
+  - title: 研究生学业一等奖学金
+    awarder: 合肥工业大学
+    date: "2017-01-01"
+  - title: 学业一等奖学金
+    awarder: 山东理工大学
+    date: "2017-01-01"
+  - title: 美国大学生数学建模竞赛（MCM）Meritorious Winner
+    awarder: COMAP, United States
+    date: "2016-01-01"
+  - title: 青岛“德瑞特”奖学金
+    awarder: 山东理工大学
+    date: "2016-01-01"

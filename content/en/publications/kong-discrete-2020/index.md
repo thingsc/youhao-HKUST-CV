@@ -1,0 +1,21 @@
+---
+title: "Discrete Time Fast Terminal Sliding-Mode for Steer-by-Wire Systems with Nonlinear Disturbance Observer"
+authors:
+  - "Huifang Kong"
+  - "Xiangxiang Liu"
+  - "Hai Wang"
+  - me
+  - "Mao Ye"
+  - "Kanghyun Nam"
+date: "2020-01-01T00:00:00Z"
+publishDate: "2020-01-01T00:00:00Z"
+publication_types: ["paper-conference"]
+publication:
+  name: "2020 Chinese Control and Decision Conference (CCDC)"
+abstract: "In this paper, a discrete-time fast terminal sliding mode (DFTSM) control scheme with a discrete-time nonlinear disturbance observer (NDO) is developed for steer-by-wire (SBW) systems. It is shown that the proposed DFTSM controller can drive the dynamic error of the close-loop system to zero, and a discrete-time NDO can effectively cope with the lumped uncertainties and external disturbance. Compared with ordinary discrete-time sliding-mode-based SBW control systems, the proposed controller not only ensures the fast time zero convergence, but also achieves stronger robustness with respect to parameter uncertainties and external disturbance. The comparison simulations are conducted which verified the remarkable robustness and anti-disturbance ability."
+hugoblox:
+  ids:
+    doi: "10.1109/CCDC49329.2020.9164379"
+links: []
+projects: []
+---
