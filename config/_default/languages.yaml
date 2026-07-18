@@ -15,3 +15,6 @@ zh:
       identity:
         # Site name shown on the Chinese site (replace with your Chinese name).
         name: 胡友豪
+      locale:
+        # 中文站日期格式：yyyy年mm月dd日（Go 时间格式）
+        date_format: "2006年01月02日"
