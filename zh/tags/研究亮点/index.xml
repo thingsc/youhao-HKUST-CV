@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>研究亮点 |</title><link>https://thingsc.github.io/youhao-HKUST-CV/zh/tags/%E7%A0%94%E7%A9%B6%E4%BA%AE%E7%82%B9/</link><atom:link href="https://thingsc.github.io/youhao-HKUST-CV/zh/tags/%E7%A0%94%E7%A9%B6%E4%BA%AE%E7%82%B9/index.xml" rel="self" type="application/rss+xml"/><description>研究亮点</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>zh-Hans</language><lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate><image><url>https://thingsc.github.io/youhao-HKUST-CV/media/icon_hu_da05098ef60dc2e7.png</url><title>研究亮点</title><link>https://thingsc.github.io/youhao-HKUST-CV/zh/tags/%E7%A0%94%E7%A9%B6%E4%BA%AE%E7%82%B9/</link></image><item><title>有源整流无线电机系统</title><link>https://thingsc.github.io/youhao-HKUST-CV/zh/projects/active-rectifier-wireless-motor/</link><pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate><guid>https://thingsc.github.io/youhao-HKUST-CV/zh/projects/active-rectifier-wireless-motor/</guid><description>&lt;p&gt;本研究提出了一种有源整流无线电机（Active-Rectifier Wireless Motor, AR-WM）系统，并采用双边移相控制（Dual-Side Phase-Shift Control, DS-PSC）策略，实现双侧相位同步、无功功率消除和最大效率点跟踪。相关成果发表于 &lt;em&gt;IEEE Transactions on Power Electronics&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;系统通过检测次级谐振电流过零点，将双侧变换器之间的相位角锁定在 90 度，实现实时频率同步。初级侧移相控制器用于调节负载电压和电机转速，次级侧移相控制器则通过双侧相位同步和等效阻抗快速调节，实现双侧零相位角运行并跟踪最大效率工作点。&lt;/p&gt;
+&lt;h2 id="技术要点"&gt;技术要点&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;双边随机频率误差分析与实验耦合验证。&lt;/li&gt;
+&lt;li&gt;基于过零点检测（ZCD）的双侧频率同步。&lt;/li&gt;
+&lt;li&gt;通过双边移相控制消除无功功率。&lt;/li&gt;
+&lt;li&gt;基于有源整流实现零无功最大效率点跟踪（ZR-MEPT）。&lt;/li&gt;
+&lt;li&gt;基于主导极点分析进行系统降阶，并设计有限时间控制器提升动态性能。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="实验结果"&gt;实验结果&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;搭建 180 W 有源整流无线电机实验样机。&lt;/li&gt;
+&lt;li&gt;在 10 cm 传输距离下实现 92.37% 的系统最高效率。&lt;/li&gt;
+&lt;li&gt;在电机全工况范围内保持较高效率运行。&lt;/li&gt;
+&lt;li&gt;相比传统 PI 控制器，积分有限时间控制方法将超调量降低 43.89%。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;相关论文：
+。&lt;/p&gt;</description></item><item><title>基于 ELM 的固定时间电压调节</title><link>https://thingsc.github.io/youhao-HKUST-CV/zh/projects/elm-wpt-voltage-regulation/</link><pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate><guid>https://thingsc.github.io/youhao-HKUST-CV/zh/projects/elm-wpt-voltage-regulation/</guid><description>&lt;p&gt;本研究针对存在集总不确定性的无线电能传输系统接收侧 DC-DC Buck 变换器，提出了一种基于极限学习机（Extreme Learning Machine, ELM）的自适应滑模控制策略。相关成果发表于 &lt;em&gt;Energies&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;所提出的控制方法采用无奇异固定时间滑模（Fixed-Time Sliding Mode, FTSM）反馈控制，使滑模变量和电压跟踪误差在固定时间内收敛。进一步设计基于 ELM 的不确定性边界估计器，在线学习系统不确定性边界信息，从而降低滑模控制设计对先验边界信息的依赖。&lt;/p&gt;
+&lt;h2 id="控制结构"&gt;控制结构&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;极限学习机扰动估计器：无需预先获得系统扰动或不确定性的数学模型，通过在线自适应学习机制实时估计扰动边界。&lt;/li&gt;
+&lt;li&gt;固定时间反馈控制器：系统状态可在固定时间内完成收敛，且收敛时间与初始条件无关。&lt;/li&gt;
+&lt;li&gt;闭环稳定性分析：给出显式跟踪误差上界，并通过实验对比验证控制器有效性。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="实验结果"&gt;实验结果&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;实现近乎零超调的定点跟踪控制。&lt;/li&gt;
+&lt;li&gt;调节时间缩短 45.70% 至 51.72%。&lt;/li&gt;
+&lt;li&gt;电压跟踪误差均方根值（RMS）降低 13.65% 至 36.96%。&lt;/li&gt;
+&lt;li&gt;在扰动与参数不确定条件下保持较强抗扰性能。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;相关代表论文：
+。&lt;/p&gt;</description></item><item><title>车辆线控节气门系统自适应滑模控制</title><link>https://thingsc.github.io/youhao-HKUST-CV/zh/projects/electronic-throttle-control/</link><pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate><guid>https://thingsc.github.io/youhao-HKUST-CV/zh/projects/electronic-throttle-control/</guid><description>&lt;p&gt;本研究方向面向具有参数不确定性、集总不确定性以及执行器约束的车辆线控节气门系统，开展基于扰动观测器的自适应有限时间和固定时间滑模控制研究。相关成果发表于 &lt;em&gt;IEEE Transactions on Vehicular Technology&lt;/em&gt;、&lt;em&gt;Neural Computing and Applications&lt;/em&gt; 和 &lt;em&gt;Mechanical Systems and Signal Processing&lt;/em&gt;。&lt;/p&gt;
+&lt;p&gt;反馈控制器采用固定时间滑模（FTSM）、递归终端滑模（RTSM）、动态滑模（DSM）和非奇异终端滑模（NTSM）等方法，以保证系统具备快速且鲁棒的控制性能。为满足全工况运行要求，进一步设计参数自适应机制和扰动估计方法，实现控制参数在线调节以及集总不确定性的实时补偿。&lt;/p&gt;
+&lt;h2 id="非奇异固定时间滑模控制"&gt;非奇异固定时间滑模控制&lt;/h2&gt;
+&lt;p&gt;项目采用非奇异固定时间滑模控制方法，实现电子节气门开度的固定时间跟踪控制。通过极限学习机（ELM）对系统不确定性进行估计，引入辅助系统处理执行器饱和问题，并利用直接自适应方法实现控制器参数的实时估计。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;采用具有自适应增益的非奇异固定时间滑模控制器。&lt;/li&gt;
+&lt;li&gt;基于 ELM 的扰动估计方法，通过在线学习权值实现不确定性补偿。&lt;/li&gt;
+&lt;li&gt;利用辅助系统识别并抑制执行器饱和效应。&lt;/li&gt;
+&lt;li&gt;滑模变量、辅助系统变量、自适应权重以及系统状态均能够实现一致有界收敛。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;相关论文：
+。&lt;/p&gt;
+&lt;h2 id="递归终端滑模控制"&gt;递归终端滑模控制&lt;/h2&gt;
+&lt;p&gt;研究采用递归终端滑模控制方法，实现电子节气门开度的有限时间跟踪控制。通过直接自适应方法对系统扰动上界及控制器参数进行实时估计。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2021 年 Highly Cited Paper。&lt;/li&gt;
+&lt;li&gt;利用递归终端滑模实现输出误差、滑模变量以及自适应估计变量的有限时间收敛。&lt;/li&gt;
+&lt;li&gt;引入积分项消除滑模控制到达阶段，提高系统鲁棒性。&lt;/li&gt;
+&lt;li&gt;基于系统扰动有界特性的扰动上界自适应估计方法。&lt;/li&gt;
+&lt;li&gt;控制器参数在线自适应调整。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;相关论文：
+。&lt;/p&gt;
+&lt;h2 id="动态滑模控制与扰动观测"&gt;动态滑模控制与扰动观测&lt;/h2&gt;
+&lt;p&gt;项目采用动态滑模控制方法实现电子节气门开度精确跟踪控制。研究设计了一种改进型扩张状态观测器，用于实时估计系统扰动，并采用直接自适应技术抑制观测误差，提高系统整体鲁棒性。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;动态滑模反馈控制。&lt;/li&gt;
+&lt;li&gt;面向非连续动态系统的改进扩张状态观测器设计。&lt;/li&gt;
+&lt;li&gt;含观测器动态的系统全局稳定性分析。&lt;/li&gt;
+&lt;li&gt;自适应观测误差抑制机制。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;相关论文：
+。&lt;/p&gt;
+&lt;h2 id="elm-辅助有限时间与固定时间控制"&gt;ELM 辅助有限时间与固定时间控制&lt;/h2&gt;
+&lt;p&gt;研究采用有限时间和固定时间滑模控制方法实现电子节气门开度的高精度跟踪控制，并利用 ELM 实时学习系统扰动或扰动上界信息，以提高系统鲁棒性。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;基于有限时间和固定时间滑模控制的反馈控制器设计。&lt;/li&gt;
+&lt;li&gt;基于 ELM 网络的实时自适应扰动或扰动上界学习方法。&lt;/li&gt;
+&lt;li&gt;全局有限时间和固定时间稳定性分析。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;相关论文：
+，
+。&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Electronic throttle control research summary, page 2"
+srcset="https://thingsc.github.io/youhao-HKUST-CV/zh/projects/electronic-throttle-control/page2_hu_c4a485a83bf4e5e0.webp 320w, https://thingsc.github.io/youhao-HKUST-CV/zh/projects/electronic-throttle-control/page2_hu_ff5e2a2bc37e4fbd.webp 480w, https://thingsc.github.io/youhao-HKUST-CV/zh/projects/electronic-throttle-control/page2_hu_5ab1481d474df7b5.webp 538w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://thingsc.github.io/youhao-HKUST-CV/zh/projects/electronic-throttle-control/page2_hu_c4a485a83bf4e5e0.webp"
+width="538"
+height="760"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;</description></item></channel></rss>

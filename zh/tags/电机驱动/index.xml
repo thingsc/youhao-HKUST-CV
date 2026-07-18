@@ -21,7 +21,7 @@
 &lt;li&gt;用无线电能传输替代传统密封结构中的穿舱供电路径。&lt;/li&gt;
 &lt;li&gt;将无线电能变换器、电机驱动器和推进器机械结构进行一体化集成。&lt;/li&gt;
 &lt;li&gt;完成实验原型搭建、调试和验证。&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>有源整流无线电机系统</title><link>https://thingsc.github.io/youhao-HKUST-CV/zh/projects/active-rectifier-wireless-motor/</link><pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate><guid>https://thingsc.github.io/youhao-HKUST-CV/zh/projects/active-rectifier-wireless-motor/</guid><description>&lt;p&gt;本研究提出了一种有源整流无线电机（Active-Rectifier Wireless Motor, AR-WM）系统，并采用双边移相控制（Dual-Side Phase-Shift Control, DS-PSC）策略，实现双侧相位同步、无功功率消除和最大效率点跟踪。相关成果发表于 &lt;em&gt;IEEE Transactions on Power Electronics&lt;/em&gt;。&lt;/p&gt;
+&lt;/ul&gt;</description></item><item><title>有源整流无线电机系统</title><link>https://thingsc.github.io/youhao-HKUST-CV/zh/projects/active-rectifier-wireless-motor/</link><pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate><guid>https://thingsc.github.io/youhao-HKUST-CV/zh/projects/active-rectifier-wireless-motor/</guid><description>&lt;p&gt;本研究提出了一种有源整流无线电机（Active-Rectifier Wireless Motor, AR-WM）系统，并采用双边移相控制（Dual-Side Phase-Shift Control, DS-PSC）策略，实现双侧相位同步、无功功率消除和最大效率点跟踪。相关成果发表于 &lt;em&gt;IEEE Transactions on Power Electronics&lt;/em&gt;。&lt;/p&gt;
 &lt;p&gt;系统通过检测次级谐振电流过零点，将双侧变换器之间的相位角锁定在 90 度，实现实时频率同步。初级侧移相控制器用于调节负载电压和电机转速，次级侧移相控制器则通过双侧相位同步和等效阻抗快速调节，实现双侧零相位角运行并跟踪最大效率工作点。&lt;/p&gt;
 &lt;h2 id="技术要点"&gt;技术要点&lt;/h2&gt;
 &lt;ul&gt;

@@ -1642,6 +1642,9 @@
   .max-w-\[140px\] {
     max-width: 140px;
   }
+  .max-w-\[500px\] {
+    max-width: 500px;
+  }
   .max-w-full {
     max-width: 100%;
   }

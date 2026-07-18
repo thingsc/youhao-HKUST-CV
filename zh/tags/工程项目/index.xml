@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>工程项目 |</title><link>https://thingsc.github.io/youhao-HKUST-CV/zh/tags/%E5%B7%A5%E7%A8%8B%E9%A1%B9%E7%9B%AE/</link><atom:link href="https://thingsc.github.io/youhao-HKUST-CV/zh/tags/%E5%B7%A5%E7%A8%8B%E9%A1%B9%E7%9B%AE/index.xml" rel="self" type="application/rss+xml"/><description>工程项目</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>zh-Hans</language><lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate><image><url>https://thingsc.github.io/youhao-HKUST-CV/media/icon_hu_da05098ef60dc2e7.png</url><title>工程项目</title><link>https://thingsc.github.io/youhao-HKUST-CV/zh/tags/%E5%B7%A5%E7%A8%8B%E9%A1%B9%E7%9B%AE/</link></image><item><title>无线供电全回转吊舱推进器</title><link>https://thingsc.github.io/youhao-HKUST-CV/zh/projects/wireless-podded-thruster/</link><pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate><guid>https://thingsc.github.io/youhao-HKUST-CV/zh/projects/wireless-podded-thruster/</guid><description>&lt;p&gt;本项目开发面向无人船的新型推进系统：无线供电全回转吊舱推进器。项目针对传统吊舱推进系统密封可靠性不足、维护成本较高等问题，通过无线电能传输方式将电能传输到全密封推进单元内部，从而提升系统密封性、可靠性和维护便利性。&lt;/p&gt;
+&lt;p&gt;系统采用 SS 补偿型无线电能传输拓扑，结合自研高频逆变器、氮化镓电机驱动器和全密封机械结构，实现推进器的无线供电、电机驱动和全回转推进功能。&lt;/p&gt;
+&lt;h2 id="我的职责"&gt;我的职责&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;无线电能传输系统建模与参数设计。&lt;/li&gt;
+&lt;li&gt;高频无线电能变换器控制开发与系统集成。&lt;/li&gt;
+&lt;li&gt;电机驱动控制开发，包括 FOC 矢量控制与实时控制。&lt;/li&gt;
+&lt;li&gt;密封机械结构设计与三维建模。&lt;/li&gt;
+&lt;li&gt;原型系统集成、调试与实验验证。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="关键技术参数"&gt;关键技术参数&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;1200 W GaN 电机驱动器。&lt;/li&gt;
+&lt;li&gt;5 kW 集成式无线电能传输逆变器。&lt;/li&gt;
+&lt;li&gt;无线输电距离：5-10 cm。&lt;/li&gt;
+&lt;li&gt;无线电能传输峰值效率：92%。&lt;/li&gt;
+&lt;li&gt;面向全密封应用的结构设计。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="系统亮点"&gt;系统亮点&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;用无线电能传输替代传统密封结构中的穿舱供电路径。&lt;/li&gt;
+&lt;li&gt;将无线电能变换器、电机驱动器和推进器机械结构进行一体化集成。&lt;/li&gt;
+&lt;li&gt;完成实验原型搭建、调试和验证。&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
