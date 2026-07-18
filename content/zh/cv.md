@@ -20,7 +20,7 @@ sections:
     content:
       username: me
     design:
-      date_format: '2006年1月'
+      date_format: '2006年01月'
       is_education_first: true
   - block: resume-skills
     content:

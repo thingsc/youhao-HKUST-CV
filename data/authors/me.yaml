@@ -122,6 +122,7 @@ awards:
     date: "2026-01-01"
     summary: Awarded for the wireless-powered full-azimuth podded thruster project.
     icon: hero/trophy
+    url: https://thingsc.github.io/youhao-HKUST-CV/projects/wireless-podded-thruster/
   - title: Fully Funded PhD Scholarship
     awarder: The Hong Kong University of Science and Technology (Guangzhou)
     date: "2022-01-01"
