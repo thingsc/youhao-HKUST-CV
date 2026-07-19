@@ -30,6 +30,8 @@ sections:
     content:
       title: 获奖
       username: me
+    design:
+      date_format: '2006年01月'
   - block: resume-languages
     content:
       title: 语言
